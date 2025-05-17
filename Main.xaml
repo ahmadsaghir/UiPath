@@ -178,7 +178,7 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                             <ueab:RenameSheetX DisplayName="Rename Sheet" From="[SourceExcel.SelectedSheet]" sap:VirtualizedContainerService.HintSize="433.6,171.2" sap2010:WorkflowViewState.IdRef="RenameSheetX_1" To="Sheet1" />
-                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;File containing sheet with unexpected name. Sheet has been renamed&quot;]" />
+                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;File containing sheet with unexpected name. Sheet has been renamed.&quot;]" />
                                           </Sequence>
                                         </If.Then>
                                         <If.Else>
@@ -188,7 +188,7 @@
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Sheet has expected name&quot;]" />
+                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Sheet has expected name.&quot;]" />
                                           </Sequence>
                                         </If.Else>
                                       </If>
